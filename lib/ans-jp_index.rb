@@ -39,7 +39,10 @@ module Ans
     end
 
     def jp_index_ord(word)
-      ALL_INDEX.index(jp_index word)
+      if char = word.to_s[0]
+        index = ALL_INDEX.index char
+      end
+      index || ALL_INDEX.index(jp_index word)
     end
 
   end
