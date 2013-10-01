@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
     Ans::JpIndex.jp_index "インデックス" # => ア
-    Ans::JpIndex.jp_index "ジュース"     # => サ
+    Ans::JpIndex.jp_index "ジュース" # => サ
 
     include Ans::JpIndex
     jp_index "ニュース" # => ナ
